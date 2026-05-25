@@ -2,3 +2,4 @@
 config_auth.yaml
 __pycache__/
 .streamlit/
+data\users\amna17.json

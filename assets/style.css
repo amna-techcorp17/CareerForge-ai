@@ -1,0 +1,23 @@
+/* Page Margin Fix - Moves main content to the top */
+.block-container {
+    padding-top: 1rem !important;
+    padding-bottom: 0rem !important;
+}
+
+/* Sidebar Spacing Fix - Reduces gap between sections */
+[data-testid="stSidebar"] {
+    padding-top: 1rem !important;
+}
+[data-testid="stSidebar"] section {
+    padding-top: 0px !important;
+}
+
+/* Force hand cursor on all interactive elements */
+button, [data-testid="stExpander"], .stSelectbox, .stButton button {
+    cursor: pointer !important;
+}
+
+/* Remove extra gap before main title */
+h1 {
+    margin-top: -10px !important;
+}

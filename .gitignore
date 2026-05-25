@@ -1,0 +1,4 @@
+.env
+config_auth.yaml
+__pycache__/
+.streamlit/

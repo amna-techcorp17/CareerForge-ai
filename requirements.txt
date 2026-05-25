@@ -1,0 +1,9 @@
+streamlit
+groq
+python-dotenv
+python-docx
+pyyaml
+fpdf
+pypdf
+PyPDF2
+streamlit-authenticator

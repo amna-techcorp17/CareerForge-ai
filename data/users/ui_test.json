@@ -1,0 +1,14 @@
+{
+  "username": "ui_test",
+  "email": "u@t.com",
+  "password_hash": "6f533b3054fb7c556322f015be2bb28c102cb84095dd13fca4745c768e20c7ce",
+  "created_at": "2026-05-23T17:23:01.190446",
+  "cvs": [
+    {
+      "timestamp": "2026-05-23T17:23:01.207469",
+      "resume": "Test Resume Content",
+      "cover_letter": "Test Cover",
+      "metadata": "{\"role\":\"Tester\"}"
+    }
+  ]
+}

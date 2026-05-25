@@ -1,0 +1,16 @@
+{
+  "username": "testuser",
+  "email": "t@e.com",
+  "password_hash": "adff79d78a9737d2af3bc170a970da97ef4a3f33befcdea490b0ac64d69707e4",
+  "created_at": "2026-05-23T17:21:35.417276",
+  "cvs": [
+    {
+      "timestamp": "2026-05-23T17:21:35.433256",
+      "resume": "resume text",
+      "cover_letter": "cover text",
+      "metadata": {
+        "role": "Engineer"
+      }
+    }
+  ]
+}

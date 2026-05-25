@@ -87,20 +87,40 @@ The platform combines modern web technologies with advanced AI capabilities to c
 
 # 📂 Project Structure
 
+# 📂 Project Structure
+
 ```bash
 CareerForge-ai/
 │
-├── agents/
-├── static/
-├── tools/
-├── templates/
-├── app.py
-├── main.py
-├── auth.py
-├── requirements.txt
-├── README.md
+├── assets/
+|  └── style.css
+|
+├── data/
+│   └── users/
+│       ├── testuser.json
+│       └── ui_test.json
+│
+├── src/
+│   ├── __init__.py
+│   ├── ai_generator.py
+│   ├── docx_export.py
+│   ├── formatter.py
+│   ├── optimizer.py
+│   ├── pdf_export.py
+│   ├── prompts.py
+│   ├── scorer.py
+│   ├── styles.py
+│   ├── users.py
+│   └── utils.py
+│
+├── .env
 ├── .gitignore
-└── careerforge.db
+├── app.py
+├── config_auth.yaml
+├── hash_pass.py
+├── requirements.txt
+├── temp_hero_patch.txt
+└── temp_patch.txt
 ```
 
 ---
@@ -149,7 +169,7 @@ pip install -r requirements.txt
 Create a `.env` file:
 
 ```env
-OPENAI_API_KEY=your_api_key_here
+GROQ_API_KEY=your_api_key_here
 ```
 
 ---
